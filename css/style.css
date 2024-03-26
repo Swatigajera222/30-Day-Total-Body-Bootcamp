@@ -82,7 +82,7 @@ ul {
 /* Header-section */
 .header-section {
   padding: 20px 0px;
-  background-color: rgba(0, 0, 0, 0.54);
+  background-color: #cccccc;
   z-index: 9;
   width: 100%;
   /* position: absolute; */
