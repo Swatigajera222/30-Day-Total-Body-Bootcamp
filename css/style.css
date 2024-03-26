@@ -541,8 +541,8 @@ ul {
   color: #fe018a;
   font-size: 50px;
   font-family: Inter-Bold;
-  margin-bottom: 70px;
-  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .subscribe-dec h3 {
   font-size: 55px;
@@ -569,6 +569,7 @@ ul {
   font-weight: 600;
   background-color: rgb(254, 23, 135);
   font-size: 40px;
+  margin: 40px 0px;
   padding: 10px 30px;
   border-radius: 10px;
   text-transform: uppercase;
@@ -609,6 +610,22 @@ ul {
   .sortable-wrap .bootcamp-start h3 {
     font-size: 46px;
   }
+  .sortable-wrap .bootcamp-start h1 {
+    font-size: 80px;
+  }
+  .sortable-wrap .bootcamp-start h1 .free-img {
+    position: absolute;
+    width: 150px;
+    right: -170px;
+  }
+  .sortable-wrap .bootcamp-start p {
+    font-size: 38px;
+  }
+  .sortable-wrap .price-btn a {
+    font-size: 28px;
+    padding: 20px 40px;
+    line-height: 40px;
+  }
   #countdown {
     flex-wrap: wrap;
   }
@@ -644,6 +661,23 @@ ul {
   .sortable-wrap .bootcamp-start h3 {
     display: flex;
     flex-direction: column;
+  }
+  .sortable-wrap .bootcamp-start .bootcamp-inner {
+    text-align: center;
+  }
+
+  .sortable-wrap .bootcamp-start h1 {
+    font-size: 80px;
+  }
+  .sortable-wrap .bootcamp-start h3 {
+    font-size: 36px;
+  }
+  .sortable-wrap .price-btn a {
+    font-size: 38px;
+    padding: 16px 40px;
+  }
+  .sortable-wrap .bootcamp-start p {
+    font-size: 34px;
   }
   #countdown {
     gap: 25px;
@@ -742,6 +776,22 @@ ul {
   .testimonials-section .head-title {
     margin-bottom: 20px;
   }
+  .sortable-wrap .price-btn h2 {
+    font-size: 32px;
+  }
+  .sortable-wrap .price-btn h2 img {
+    width: 60px;
+    margin-right: -5px;
+  }
+  .sortable-wrap .bootcamp-start h3 {
+    font-size: 28px;
+  }
+  .sortable-wrap .bootcamp-start h1 {
+    font-size: 60px;
+  }
+  .sortable-wrap .bootcamp-start p {
+    font-size: 28px;
+  }
   .bootcamp-section ul li img {
     margin-right: 10px;
   }
@@ -772,11 +822,11 @@ ul {
     border: none;
   }
   .subscribe-dec h1 {
-    font-size: 50px;
+    font-size: 70px;
   }
   .subscribe-dec h2 {
     color: #fe018a;
-    font-size: 95px;
+    font-size: 50px;
   }
   .subscribe-dec h3 {
     font-size: 40px;
@@ -834,6 +884,17 @@ ul {
     padding: 15px 30px;
     margin-top: 20px;
   }
+  .sortable-wrap .price-btn a {
+    font-size: 35px;
+    padding: 15px 30px;
+    margin-top: 0px;
+  }
+  .sortable-wrap .bootcamp-start h1 .free-img {
+    display: none;
+  }
+  .sortable-wrap .bootcamp-start h1 .free-text {
+    display: revert;
+  }
 }
 @media only screen and (max-width: 525px) {
   .sign-up {
@@ -851,6 +912,35 @@ ul {
   .sortable-wrap .price-wrap .price-table .price-annual {
     display: block;
     margin-bottom: 20px;
+  }
+  .sortable-wrap .price-wrap .price-btn a {
+    font-size: 35px;
+    padding: 15px 30px;
+  }
+  .sortable-wrap .bootcamp-start h3 {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  .sortable-wrap .bootcamp-start h1 {
+    font-size: 45px;
+  }
+  .sortable-wrap .bootcamp-start p {
+    font-size: 25px;
+    letter-spacing: 0px;
+    margin-top: 0px;
+  }
+  .sortable-wrap .price-btn h2 {
+    font-size: 22px;
+  }
+  .sortable-wrap .price-btn h2 img {
+    width: 40px;
+    margin-right: 0px;
+  }
+  .sortable-wrap .price-btn a p span::after {
+    content: "";
+    width: 80px;
+    left: -5px;
+    bottom: -26px;
   }
   .brand-logo {
     width: 120px;
@@ -883,6 +973,14 @@ ul {
   }
   .sortable-wrap .bootcamp-start h3 {
     font-size: 26px;
+  }
+  .sortable-wrap .bootcamp-start h1 {
+    font-size: 45px;
+  }
+  .sortable-wrap .bootcamp-start p {
+    font-size: 25px;
+    letter-spacing: 0px;
+    margin-top: 0px;
   }
   #countdown {
     gap: 0px;
@@ -950,11 +1048,11 @@ ul {
     margin-bottom: 20px;
   }
   .subscribe-dec h1 {
-    font-size: 44px;
+    font-size: 55px;
   }
   .subscribe-dec h2 {
     color: #fe018a;
-    font-size: 80px;
+    font-size: 38px;
   }
   .subscribe-dec h3 {
     font-size: 30px;
@@ -980,6 +1078,9 @@ ul {
   .sortable-wrap .bootcamp-start h3 {
     font-size: 22px;
   }
+  .sortable-wrap .bootcamp-start h1 {
+    font-size: 36px;
+  }
   .video-area iframe {
     height: 195px;
   }
@@ -996,10 +1097,26 @@ ul {
 
 @media only screen and (max-width: 374px) {
   .subscribe-dec h2 {
-    font-size: 60px;
+    font-size: 28px;
+  }
+  .sortable-wrap .bootcamp-start h1 {
+    font-size: 36px;
+  }
+  .sortable-wrap .price-btn a {
+    font-size: 24px;
+    padding: 15px 30px;
+    margin-top: 0px;
+    line-height: 30px;
+  }
+  .sortable-wrap .bootcamp-start p {
+    font-size: 20px;
+    letter-spacing: 0px;
+  }
+  .sortable-wrap .bootcamp-start h3 {
+    font-size: 18px;
   }
   .subscribe-dec h1 {
-    font-size: 36px;
+    font-size: 40px;
   }
   .bootcamp-section .head-title h1,
   .head-title h1 {
