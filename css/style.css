@@ -82,7 +82,7 @@ ul {
 /* Header-section */
 .header-section {
   padding: 20px 0px;
-  background-color: #cccccc;
+  background-color: rgba(0, 0, 0, 0.54);
   z-index: 9;
   width: 100%;
   /* position: absolute; */
@@ -930,10 +930,10 @@ ul {
     margin-top: 0px;
   }
   .sortable-wrap .price-btn h2 {
-    font-size: 22px;
+    font-size: 26px;
   }
   .sortable-wrap .price-btn h2 img {
-    width: 40px;
+    width: 45px;
     margin-right: 0px;
   }
   .sortable-wrap .price-btn a p span::after {
