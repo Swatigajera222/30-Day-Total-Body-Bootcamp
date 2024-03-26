@@ -30,3 +30,7 @@
   font-family: Chocolates-Bold;
   src: url(..//fonts/TT\ Chocolates\ Bold.otf);
 }
+@font-face {
+  font-family: Anton-Regular;
+  src: url(..//fonts/Anton-Regular.ttf);
+}
